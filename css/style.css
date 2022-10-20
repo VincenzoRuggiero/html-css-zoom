@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-centered {
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+}
+
+div.users {
+  width: 100vw;
+  margin: 2rem 0;
+  background-color: aquamarine;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+div.user__screen {
+  width: calc(90% / 7);
+  height: 23vh;
+  margin: 0 2px 2px;
+  border: 2px solid red;
+  background-color: aqua;
+}
