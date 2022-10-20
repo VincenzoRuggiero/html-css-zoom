@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+body {
+  font-family: "Roboto", sans-serif;
+}
+
 .flex {
   display: flex;
 }
@@ -33,12 +37,14 @@ div.user__screen {
   background-color: aqua;
 }
 
-header {
+footer {
+  position: fixed;
   width: 100vw;
-  max-height: 25vh;
+  max-height: 20vh;
   background-color: black;
   color: #fff;
-  align-items: flex-end;
+  align-items: center;
+  justify-content: space-between;
 }
 
 /* header .button__box {
@@ -50,7 +56,11 @@ header {
   padding: 7px 15px;
 } */
 
-header .input__box {
+.input__area {
+  margin: 0 5px;
+}
+
+footer .input__box {
   height: 100%;
   text-align: center;
   padding: 2px;
@@ -58,9 +68,8 @@ header .input__box {
   margin-right: 10px;
 }
 
-header span.more__button {
+footer span.more__button {
   align-self: center;
-  float: left;
 }
 
 .fa-solid {
@@ -68,4 +77,19 @@ header span.more__button {
 }
 .green {
   color: green;
+}
+
+div.left__controls {
+  margin-left: 2rem;
+}
+
+div.right__controls {
+  height: 100%;
+  align-items: center;
+  background-color: #4a4a4a;
+}
+
+div.right__controls h3 {
+  color: red;
+  padding: 20px;
 }
