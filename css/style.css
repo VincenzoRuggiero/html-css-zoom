@@ -13,6 +13,10 @@
   align-items: center;
 }
 
+.flex-column {
+  flex-direction: column;
+}
+
 div.users {
   width: 100vw;
   margin: 2rem 0;
@@ -27,4 +31,38 @@ div.user__screen {
   margin: 0 2px 2px;
   border: 2px solid red;
   background-color: aqua;
+}
+
+header {
+  width: 100vw;
+  max-height: 25vh;
+  background-color: black;
+  color: #fff;
+  align-items: flex-end;
+}
+
+/* header .button__box {
+  height: 100%;
+  width: 4vw;
+  border: 2px solid yellow;
+  align-items: center;
+  text-align: center;
+  padding: 7px 15px;
+} */
+
+header .input__box {
+  height: 100%;
+  text-align: center;
+  padding: 2px;
+  align-items: center;
+  margin-right: 10px;
+}
+
+header span.more__button {
+  align-self: center;
+  float: left;
+}
+
+.fa-solid {
+  font-size: 1.5rem;
 }
